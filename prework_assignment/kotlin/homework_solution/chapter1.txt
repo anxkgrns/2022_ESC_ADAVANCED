@@ -1,0 +1,38 @@
+질문 1
+다음 중 Kotlin 언어를 사용할 때의 이점이 아닌 것은 무엇입니까?
+
+▢ Kotlin은 nullable 데이터 유형과 nullable이 아닌 데이터 유형을 구분합니다.
+
+▢ Kotlin은 Android 앱 빌드에 지원되는 언어입니다.
+
+▢ Kotlin은 적은 버그로 적은 양의 코드를 작성할 수 있도록 설계되었습니다.
+
+▢ 코드는 Kotlin에서 더 빠르게 컴파일됩니다.
+
+ans) 코드는 kotin에서 더 빠르게 컴파일 됩니다. 코드를 간결하게 만들뿐 컴파일 속도에 관한 내용은 없었습니다
+
+질문 2
+Kotlin REPL을 어떻게 시작합니까?
+
+▢ repl명령줄에 입력합니다.
+
+▢ IntelliJ IDEA에서 Kotlin 프로젝트를 생성한 다음 Run > Kotlin REPL 을 선택 합니다.
+
+▢ IntelliJ IDEA를 열고 File > Kotlin REPL 을 선택 합니다.
+
+▢ IntelliJ IDEA에서 Kotlin 프로젝트를 생성한 다음 Tools > Kotlin > Kotlin REPL 을 선택 합니다.
+
+ans)  IntelliJ IDEA에서 Kotlin 프로젝트를 생성한 다음 Tools > Kotlin > Kotlin REPL 을 선택 합니다.
+
+질문 3
+다음 중 Kotlin 및 Java 코드에 대한 설명으로 옳지 않은 것은?
+
+▢ Kotlin 코드와 Java 코드를 나란히 실행할 수 있습니다.
+
+▢ 기존 자바 프로그램에 Kotlin 코드를 추가할 수 있습니다.
+
+▢ 기존 Java 코드를 Kotlin으로 마이그레이션할 수 있습니다.
+
+▢ Kotlin 코드는 Java 코드보다 빠르게 실행됩니다.
+
+ans) 4번 코틀린 언어와 자바는 언어는 서로 사용이 가능합니다. 즉, 4번과 같은 내용은 언급이 없었고, 같이 사용이 가능한만큼 빠르게 실행되는 것이 아닌 같이 실행됩니다.
