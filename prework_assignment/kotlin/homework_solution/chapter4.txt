@@ -1,0 +1,66 @@
+Question 1
+Classes have a special method that serves as a blueprint for creating objects of that class. What is the method called?
+
+▢ A builder
+
+▢ An instantiator
+
+▢ A constructor
+
+▢ A blueprint
+
+ans) 3번 생성자가 클래스를 만드는데 필요하다.
+
+Question 2
+Which of the following statements about interfaces and abstract classes is NOT correct?
+
+▢ Abstract classes can have constructors.
+
+▢ Interfaces can't have constructors.
+
+▢ Interfaces and abstract classes can be instantiated directly.
+
+▢ Abstract properties must be implemented by subclasses of the abstract class.
+
+ans) 3번 추살 클래스와 인터페이스는 인스턴스화 불가능
+
+Question 3
+Which of the following is NOT a Kotlin visibility modifier for properties, methods, etc.?
+
+▢ internal
+
+▢ nosubclass
+
+▢ protected
+
+▢ private
+
+ans) 2번, 수정자는 internal protected, private 만 존재한다.
+
+Question 4
+Consider this data class: data class Fish(val name: String, val species:String, val colors:String) Which of the following is NOT valid code to create and destructure a Fish object?
+
+▢ val (name1, species1, colors1) = Fish("Pat", "Plecostomus", "gold")
+
+▢ val (name2, _, colors2) = Fish("Bitey", "shark", "gray")
+
+▢ val (name3, species3, _) = Fish("Amy", "angelfish", "blue and black stripes")
+
+▢ val (name4, species4, colors4) = Fish("Harry", "halibut")
+
+ans) 4번, 매개변수의 개수가 인자의 개수와 다르다.
+
+Question 5
+Let's say you own a zoo with lots of animals that all need to be taken care of. Which of the following would NOT be part of implementing caretaking?
+
+▢ An interface for different types of foods animals eat.
+
+▢ An abstract Caretaker class from which you can create different types of caretakers.
+
+▢ An interface for giving clean water to an animal.
+
+▢ A data class for an entry in a feeding schedule.
+
+ans) 1번도 eating을 키로 인터페이스 만들면 가능, 2번도 가상 클래스, 3번도 clean water를 먹는다는 인터페이스로 가능, 4번은 월화수목금토일 을 통해 data를 표현하면 가능..?
+
+
